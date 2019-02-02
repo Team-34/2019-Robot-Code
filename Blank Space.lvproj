@@ -99,9 +99,8 @@ AddOutputFilter chunkFilter
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Mechanism Code" Type="Folder">
-			<Item Name="FlyWheel.vi" Type="VI" URL="../Mechanism Code/FlyWheel.vi"/>
-			<Item Name="Pivot.vi" Type="VI" URL="../../../Pivot.vi"/>
+		<Item Name="Mechanism Code" Type="Folder" URL="../Mechanism Code">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
