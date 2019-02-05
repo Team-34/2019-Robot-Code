@@ -121,7 +121,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="LimeTimer.vi" Type="VI" URL="../LimeTimer.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../../../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
