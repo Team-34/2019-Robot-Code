@@ -103,7 +103,11 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
+			<Item Name="180 Wrap.vi" Type="VI" URL="../180 Wrap.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Independent Commands.vi" Type="VI" URL="../Independent Commands.vi"/>
+			<Item Name="LimeTimer.vi" Type="VI" URL="../LimeTimer.vi"/>
+			<Item Name="NavX Reset.vi" Type="VI" URL="../NavX Reset.vi"/>
 		</Item>
 		<Item Name="Swerve Drive" Type="Folder" URL="../Swerve Drive">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -119,8 +123,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Independent Commands.vi" Type="VI" URL="../Independent Commands.vi"/>
-		<Item Name="LimeTimer.vi" Type="VI" URL="../LimeTimer.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -732,7 +734,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
